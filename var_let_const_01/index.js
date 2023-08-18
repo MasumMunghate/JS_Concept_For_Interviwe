@@ -38,6 +38,18 @@
 //     console.log(c);
 // }
 
+// {
+//     var a = 8;
+// }
+// console.log(a); // Outputs: 8
+//  you're declaring the variable a using var inside a block. Since var doesn't have block-level scope, the variable a is accessible outside the block as well. That's why console.log(a) outputs 8.
+
+// function abc() {
+//     var b = 10;
+// }
+// console.log(b); // Throws an error: b is not defined
+// you're declaring the variable b using var inside a function. However, since the abc function defines the scope for b, you cannot access b outside the function scope. Hence, console.log(b) throws an error saying b is not defined.
+
 {/*Variable Shadowing*/}
 
 // Imp Note:- Variable shadowing occurs in JavaScript when a variable declared in a local scope has the same name as a variable declared in an outer scope. In such cases, the inner variable "shadows" or takes precedence(priority in importance) over the outer variable within its scope. 
