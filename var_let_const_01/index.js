@@ -25,7 +25,7 @@
 //     var b=8;
 
 // }
-// console.log(a); // still not accesbl
+// console.log(b); // still not accesbl
 
 // {
 //     let b=101; // let accese within this Scope
